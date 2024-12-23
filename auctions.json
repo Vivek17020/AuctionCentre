@@ -1,0 +1,159 @@
+{
+  "home": {
+    "welcome_message": "Welcome to the Auction Platform! Find art, music, crypto, and more.",
+    "featured_categories": [
+      {
+        "name": "Art",
+        "image_url": "https://www.shutterstock.com/image-photo/colorful-abstract-painting-260nw-1936269925.jpg"
+      },
+      {
+        "name": "Photography",
+        "image_url": "https://www.shutterstock.com/image-photo/mountain-landscape-nepal-tourism-trekking-260nw-1936258963.jpg"
+      },
+      {
+        "name": "Music",
+        "image_url": "https://www.shutterstock.com/image-photo/musical-notes-on-black-background-260nw-1936267890.jpg"
+      },
+      {
+        "name": "Crypto",
+        "image_url": "https://www.shutterstock.com/image-photo/bitcoin-cryptocurrency-digital-asset-260nw-1936261234.jpg"
+      }
+    ]
+  },
+  "declareAuctionResult": {
+    "status": "success",
+    "result": "Auction results are declared after final bids are processed."
+  },
+  "winner": {
+    "auction_id": 101,
+    "winner": "JohnDoe123",
+    "winning_bid": 1500,
+    "item": "Vintage Painting",
+    "image_url": "https://www.shutterstock.com/image-photo/vintage-oil-painting-on-canvas-260nw-1936264567.jpg"
+  },
+  "maxBidValue": {
+    "auction_id": 101,
+    "max_bid": 1500
+  },
+  "rollback": {
+    "auction_id": 102,
+    "status": "Auction has been rolled back due to insufficient bids."
+  },
+  "register": {
+    "instructions": "Register to start bidding and creating auctions.",
+    "fields": ["username", "email", "password"]
+  },
+  "login": {
+    "instructions": "Login to access your dashboard.",
+    "fields": ["username", "password"]
+  },
+  "upcoming_auctions": [
+    {
+      "id": 201,
+      "name": "Digital Artwork Collection",
+      "start_date": "2024-01-10",
+      "category": "Art",
+      "creator": "Artist123",
+      "image_url": "https://www.shutterstock.com/image-photo/digital-abstract-painting-260nw-1936267891.jpg"
+    },
+    {
+      "id": 202,
+      "name": "Exclusive Photography",
+      "start_date": "2024-01-15",
+      "category": "Photography",
+      "creator": "PhotoPro",
+      "image_url": "https://www.shutterstock.com/image-photo/exclusive-landscape-photography-260nw-1936258964.jpg"
+    }
+  ],
+  "ongoing_auctions": [
+    {
+      "id": 301,
+      "name": "Rare Crypto Art",
+      "current_bid": 1200,
+      "category": "Crypto",
+      "manager": "CryptoKing",
+      "end_date": "2024-01-05",
+      "image_url": "https://www.shutterstock.com/image-photo/crypto-art-digital-illustration-260nw-1936261235.jpg"
+    },
+    {
+      "id": 302,
+      "name": "Exclusive Music Track",
+      "current_bid": 800,
+      "category": "Music",
+      "manager": "MusicMaestro",
+      "end_date": "2024-01-07",
+      "image_url": "https://www.shutterstock.com/image-photo/music-track-illustration-260nw-1936267892.jpg"
+    }
+  ],
+  "recently_sold": [
+    {
+      "id": 401,
+      "name": "Limited Edition Tweet",
+      "final_price": 500,
+      "category": "Tweet",
+      "buyer": "Bidder456",
+      "image_url": "https://www.shutterstock.com/image-photo/limited-edition-tweet-illustration-260nw-1936267893.jpg"
+    },
+    {
+      "id": 402,
+      "name": "Abstract Painting",
+      "final_price": 2000,
+      "category": "Art",
+      "buyer": "Collector789",
+      "image_url": "https://www.shutterstock.com/image-photo/abstract-painting-on-canvas-260nw-1936267894.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Art",
+      "description": "Discover unique and creative artworks.",
+      "image_url": "https://www.shutterstock.com/image-photo/art-gallery-illustration-260nw-1936267895.jpg"
+    },
+    {
+      "name": "Photography",
+      "description": "Explore breathtaking photographs from top photographers.",
+      "image_url": "https://www.shutterstock.com/image-photo/photography-gallery-illustration-260nw-1936258965.jpg"
+    },
+    {
+      "name": "Music",
+      "description": "Bid on exclusive music tracks and albums.",
+      "image_url": "https://www.shutterstock.com/image-photo/music-gallery-illustration-260nw-1936267896.jpg"
+    },
+    {
+      "name": "Crypto",
+      "description": "Own rare and collectible crypto assets.",
+      "image_url": "https://www.shutterstock.com/image-photo/crypto-gallery-illustration-260nw-1936261236.jpg"
+    },
+    {
+      "name": "Tweet",
+      "description": "Buy iconic and rare tweets from celebrities.",
+      "image_url": "https://www.shutterstock.com/image-photo/tweet-gallery-illustration-260nw-1936267897.jpg"
+    },
+    {
+      "name": "Image",
+      "description": "Acquire high-quality images for personal or commercial use.",
+      "image_url": "https://www.shutterstock.com/image-photo/image-gallery-illustration-260nw-1936267898.jpg"
+    }
+  ],
+  "bidding": {
+    "instructions": "Click the link to place your bid:",
+    "url": "https://embed-crossmint.vercel.app/",
+    "image_url": "https://www.shutterstock.com/image-photo/bidding-illustration-260nw-1936267899.jpg"
+  },
+  "roles": {
+    "bidder": {
+      "permissions": ["View auctions", "Place bids"],
+      "image_url": "https://www.shutterstock.com/image-photo/bidder-role-illustration-260nw-1936267900.jpg"
+    },
+    "auction_creator": {
+      "permissions": ["Create auctions", "Manage created auctions"],
+      "image_url": "https://www.shutterstock.com/image-photo/auction-creator-illustration-260nw-1936267901.jpg"
+    },
+    "auction_manager": {
+      "permissions": ["Oversee auctions", "Declare results"],
+      "image_url": "https://www.shutterstock.com/image-photo/auction-manager-illustration-260nw-1936267902.jpg"
+    }
+  }
+}
+
+ 
